@@ -4,8 +4,8 @@
 При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 */
 
-
-string[] array = { "hello", "2", "world", ":-)", "222" };
+Console.WriteLine("Приветствую, сейчас будет выполнено решение с массивом уже заданным в алгоритм.");
+string[] array = { "Hello", "2", "world", ":-)", "222" };
 Console.Write("[ ");
 void Print(string[] Array)
 {
@@ -17,6 +17,7 @@ void Print(string[] Array)
 Print(array);
 Console.Write("]");
 Console.WriteLine();
+Console.WriteLine("Далее массив будет отфильтрован согласно заданию: длина строк меньше, либо равна 3 символам.");
 filteredArray(array);
 void filteredArray(string[] array)
 {
@@ -32,3 +33,5 @@ void filteredArray(string[] array)
     }
 }
 Console.Write("]");
+Console.WriteLine();
+Console.WriteLine("Готово! Если необходимо отфильтровать другой массив, то внесите пожалуйста его вместо заданного в алгоритме массива.");
